@@ -1,0 +1,511 @@
+/*   Parámetros Iniciales     */
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+/* /////    PANTALLAS GRANDES   ///// */
+
+@media (min-width:800px){
+
+    /* ////////////// NAV //////////////*/
+
+    nav{
+        width: 100%;
+        height: 20%;
+    }
+    #navegador{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    #logos{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 10%;
+        height: 100%;
+    }
+    #Logo1{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 80%;
+        width: 100%;
+    }
+    #Logo1 img{
+        height: 200%;
+        width: 200%;
+        margin-right:  30px;
+    }
+    #direccion{
+        width: 20%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-left: solid 1px black;
+        border-right: solid 1px black;
+    }
+    #ubica{
+        width: 20%;
+        height: 100%;
+    }
+    #ubica img{
+        width: 70%;
+        height: 70%;
+    }
+    #texto{
+        font-family: 'calibri';
+        font-size: 18px;
+        color: #F66001;
+    }
+    #flecha{
+        width: 20%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    #flecha img{
+        width: 30%;
+        height: 30%;
+    }
+    #buscador{
+        width: 50%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    form{
+        margin-left: 20px;
+        width: 100%;
+    }
+    #buscador input[type="text"]{
+        background: url(../img/lupa.png);
+        background-repeat: no-repeat;
+        background-position: left;
+        background-position-x: 10px;
+        background-size: 3%;
+        padding-left: 40px;
+        font-size: 18px;
+        width: 100%;
+        height: 40px;
+        border-radius: 15px;
+        border: 1px;
+        font-family: 'calibri';
+        background-color: rgb(224, 224, 224);
+        border: solid 3px lightgrey;
+    }
+    #logo2{
+        width: 20%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    #modi{
+        text-decoration: none;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: 'calibri';
+        font-size: 25px;
+        color: #F66001;
+        margin: 25px;
+    }
+    #logo2 img{
+        height: 50%;
+        width: 50%;
+    }
+
+    /*  ///// MENÚ //////////  */
+    main{
+        width: 100%;
+        height: 80%;
+    }
+    /*  ///// Categorias //////////  */
+
+    #categorias h1{
+        font-size: 40px;
+        margin: 2%;
+    }
+    #categ{
+        width: 100%;
+        height: 80%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    #grupo1{
+        width: 50%;
+        display: flex;
+    }
+    #grupo2{
+        width: 50%;
+        display: flex;
+    }
+    .cuadro{
+        width: 50%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .cuadro .image{
+        display: flex;
+        align-items: center;
+        justify-content: center;    
+    }
+    .cuadro img{
+        height: 50%;
+        width: 50%;
+    }
+    .nomCat{
+        margin-top: 5px;
+        font-size: 20px;
+    }
+    .desCat{
+        font-size: 15px;
+        color: rgba(39, 39, 39, 0.863);
+    }
+        /*  ///// Mejores calificados //////////  */
+
+        #calif h1{
+            font-size: 40px;
+            margin: 2%;
+        }
+        #calificados{
+            width: 100%;
+            height: 80%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 50px;
+        }
+        .espacio{
+            width: 10%;
+            height: 100%;
+            background: gray;
+        }
+        .cuadrocalif{
+            width: 30%;
+            height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+        }
+        .cuadrocalif .image{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+        }
+        .cuadrocalif img{
+            height: 50%;
+            width: 50%;
+        }
+        .nomRes{
+            margin-top: 5px;
+            font-size: 25px;
+        }
+        .disRes{
+            font-size: 20px;
+            color: rgba(39, 39, 39, 0.863);
+        }
+        .calRes{
+            font-size: 15px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .calRes img{
+            width: 10%;
+            height: 10%;
+        }
+        .calRes .numRat{
+            padding-left: 10px;
+            color: rgba(39, 39, 39, 0.863);
+        }
+
+        .cerrar{
+            text-align: center;
+            font-family: 'calibri';
+            font-size: 20px;
+            margin-bottom: 25px;
+            margin-top: 25px;
+        }
+
+        
+}
+
+/* /////    TELÉFONO   ///// */
+
+@media (max-width:799px){
+    
+    /* ////////////// NAV //////////////*/
+
+    nav{
+        width: 100%;
+        height: 20%;
+    }
+    #navegador{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    #logos{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 10%;
+        height: 100%;
+    }
+    #btnHamburguesa{
+        width: 50%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    #btnMenu{
+        width: 100%;
+        height: 100%;
+        background:none;
+        border: none;
+        cursor: pointer;
+    }
+    #btnHamburguesa img{
+        height: 90%;
+        width: 90%;
+    }
+    #Logo1{
+        height: 50%;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        display: none;
+    }
+    #Logo1 img{
+        height: 70%;
+        width: 70%;
+    }
+    #direccion{
+        width: 20%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-left: solid 1px black;
+        border-right: solid 1px black;
+        display: none;
+    }
+    #ubica{
+        width: 20%;
+        height: 100%;
+    }
+    #ubica img{
+        width: 70%;
+        height: 70%;
+    }
+    #texto{
+        font-family: 'calibri';
+        font-size: 18px;
+        color: #F66001;
+    }
+    #flecha{
+        width: 20%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    #flecha img{
+        width: 30%;
+        height: 30%;
+    }
+    #buscador{
+        width: 80%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    form{
+        width: 90%;
+    }
+    #buscador input[type="text"]{
+        background: url(../img/lupa.png);
+        background-repeat: no-repeat;
+        background-position: left;
+        background-position-x: 10px;
+        background-size: 3%;
+        padding-left: 40px;
+        font-size: 18px;
+        width: 90%;
+        height: 40px;
+        border-radius: 15px;
+        border: 1px;
+        font-family: 'calibri';
+        background-color: rgb(224, 224, 224);
+        border: solid 3px lightgrey;
+    }
+    #logo2{
+        width: 20%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+        #modi{
+        text-decoration: none;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: 'calibri';
+        font-size: 25px;
+        color: #F66001;
+        margin: 25px;
+    }
+    #logo2 img{
+        height: 80%;
+        width: 80%;
+    }
+
+    /*  ///// MENÚ //////////  */
+    main{
+        width: 100%;
+        height: 80%;
+    }
+    /*  ///// Categorias //////////  */
+
+    #categorias h1{
+        font-size: 40px;
+        margin: 2%;
+    }
+    #categ{
+        width: 100%;
+        height: 80%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    #grupo1{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    #grupo2{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .cuadro{
+        width: 50%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        margin: 10px;
+    }
+    .cuadro .image{
+        display: flex;
+        align-items: center;
+        justify-content: center;    
+    }
+    .cuadro img{
+        height: 50%;
+        width: 50%;
+    }
+    .nomCat{
+        margin-top: 5px;
+        font-size: 20px;
+    }
+    .desCat{
+        font-size: 15px;
+        color: rgba(39, 39, 39, 0.863);
+    }
+        /*  ///// Mejores calificados //////////  */
+
+        #calif h1{
+            font-size: 40px;
+            margin: 2%;
+        }
+        #calificados{
+            width: 100%;
+            height: 80%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+        }
+        .espacio{
+            width: 0%;
+            height: 100%;
+            background: gray;
+        }
+        .cuadrocalif{
+            width: 100%;
+            height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            margin: 10px;
+        }
+        .cuadrocalif .image{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+        }
+        .cuadrocalif img{
+            height: 50%;
+            width: 50%;
+        }
+        .nomRes{
+            margin-top: 5px;
+            font-size: 25px;
+        }
+        .disRes{
+            font-size: 20px;
+            color: rgba(39, 39, 39, 0.863);
+        }
+        .calRes{
+            font-size: 15px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .calRes img{
+            width: 10%;
+            height: 10%;
+        }
+        .calRes .numRat{
+            padding-left: 10px;
+            color: rgba(39, 39, 39, 0.863);
+        }
+        .cerrar{
+            text-align: center;
+            font-family: 'calibri';
+            font-size: 20px;
+            margin-bottom: 25px;
+            margin-top: 25px;
+        }
+        
+        .cerrar a{
+            text-decoration: none;
+            color: darkred;
+        }
+}

@@ -1,0 +1,132 @@
+*{
+    box-sizing: border-box;
+    font-family: 'calibri';
+}
+
+.container .btn-menu, .logo{
+    line-height:10%;
+}
+.container .btn-menu label{
+    color: black;
+    cursor: pointer;
+}
+.container .btn-menu label img{
+    color: black;
+    width: 40%;
+    cursor: pointer;
+    margin-left: 20px;
+}
+
+/*   MENÚ LATERAL */
+
+#btn-menu{
+    display: none;
+}
+#btn-menu label img{
+    width: 10%;
+}
+
+.redesS{
+    margin-bottom: 20px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+}
+.redesS img{
+    width: 80%;
+}
+.redesS #insta{
+    width: 25%;
+}
+.redesS #what{
+    width: 25%;
+}
+.redesS #yout{
+    width: 25%;
+}
+.redesS #face{
+    width: 25%;
+}
+#cerrarSe{
+    margin-top: 10px;
+    border-bottom: solid 2px black;
+}
+.imagenE{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    max-width: 350px;
+}
+.imgOp img{
+    max-width: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+
+#logoMenu{
+    margin-bottom: 20px;
+    align-items: center;
+    text-align: center;
+}
+#logoMenu img{
+    width: 60%;
+}
+.container-menu{
+    position: absolute;
+    background: rgba(0,0,0,0.5);
+    width: 100%;
+    height: 100vh;
+    top: 0;left: 0;
+    transition: all 500ms ease;
+    opacity: 0;
+    visibility: hidden;
+}
+#btn-menu:checked ~ .container-menu{
+    opacity: 1;
+    visibility: visible;
+}
+.btnS img{
+    width: 50%;
+}
+.cont-menu{
+    width: 100%;
+    max-width: 350px;
+    background: whitesmoke;
+    height: 100vh;
+    position: relative;
+    transition: all 500ms ease;
+    transform: translateX(-100%);
+}
+#btn-menu:checked ~ .container-menu .cont-menu{
+    transform: translateX(0%);
+}
+.cont-menu nav{
+    transform: translateY(15%);
+}
+.cont-menu nav a{
+    width: 100%;
+    max-width: 350px;
+    display: block;
+    text-decoration: none;
+    padding: 20px;
+    color: black;
+    border-left: 5px solid transparent;
+    transition: all 400ms ease;
+}
+.cont-menu nav a:hover{
+    border-left: 5px solid darkgray;
+    font-size: 20px;
+}
+.cont-menu label{
+    position: absolute;
+    right: 5px;
+    top: 10px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 18px;
+}
+/*Fin de Menù lateral*/

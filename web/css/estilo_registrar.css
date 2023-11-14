@@ -1,0 +1,255 @@
+/* /////    AJUSTES GENERALES   ///// */
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;    
+}
+
+/* /////    PANTALLAS GRANDES   ///// */
+
+@media (min-width:800px){
+    /* /////     NAVEGADOR  ///// */
+
+    nav{
+        width: 100%;
+        background-color: #F66001;
+        display: flex;
+        height: 40px;
+    }
+
+    nav button{
+        background: none;
+        border: none;
+    }
+
+    nav #seccion1{
+        display: flex;
+        justify-content: center;
+        width: 50%;
+    }
+
+    nav #seccion2{
+        display: flex;
+        justify-content: center;
+        width: 50%;
+    }
+
+    nav a{
+        text-decoration: none;
+        color: white;
+        padding: 10px;
+        border-radius: 50px;
+        font-size: 15px;
+        cursor: pointer;
+        opacity: 60%;
+    }
+
+    nav a:hover{
+        text-decoration: none;
+        font-size: 20px;
+        opacity: 100%;
+    }
+
+    nav button img{
+        transform: rotate(90deg);
+    }
+
+    /* /////     MAIN  ///// */
+
+    main{
+        width: 100%;
+        height: 100%;
+    }
+
+    main div .regresa{
+        width: 100%;
+        height: auto;
+    }
+
+    main div a img{
+        margin: auto;
+        margin-top: 15px;
+        margin-left: 10px;
+    }
+    .encabezado{
+        text-align: center;
+    }
+    main .encabezado h1{
+        color: #F66001;
+        font-size: 50px;
+    }
+
+    main .encabezado h3{
+        margin-top: 50px;
+    }
+
+    main .seleccion{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+
+    main .seleccion a img{
+        height: 300px;
+        margin: auto;
+        margin-top: 70px;
+        margin-bottom: 20px;
+        opacity: 70%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    main .seleccion a:hover img{
+        opacity: 100%;
+    }
+
+    main .seleccion .parte1{
+        width: 50%;
+    }
+
+    main .seleccion .parte2{
+        width: 50%;
+    }
+
+    main .seleccion label{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        font-size: 20px;
+        color: black;
+    }
+
+    /* /////    FOOTER   ///// */
+
+    footer{
+        text-align: center;
+        font-family: 'calibri';
+        font-size: 20px;
+        color: #F66001;
+        margin-top: 40px;
+    }
+}
+
+/* /////    TELÉFONO   ///// */
+
+@media (max-width:799px){
+    /* /////     NAVEGADOR  ///// */
+
+    nav{
+        width: 100%;
+        background-color: #F66001;
+        display: flex;
+        height: 40px;
+    }
+
+    nav button{
+        background: none;
+        border: none;
+    }
+
+    nav #seccion1{
+        display: flex;
+        justify-content: center;
+        width: 50%;
+    }
+
+    nav #seccion2{
+        display: flex;
+        justify-content: center;
+        width: 50%;
+    }
+
+    nav a{
+        text-decoration: none;
+        color: white;
+        padding: 10px;
+        border-radius: 50px;
+        font-size: 15px;
+        cursor: pointer;
+        opacity: 60%;
+    }
+
+    nav a:hover{
+        text-decoration: none;
+        font-size: 20px;
+        opacity: 100%;
+    }
+
+    nav button img{
+        transform: rotate(90deg);
+    }
+
+    /* /////     MAIN  ///// */
+
+    main{
+        width: 100%;
+        height: 100%;
+    }
+
+    main div .regresa{
+        width: 100%;
+        height: auto;
+    }
+
+    main div a img{
+        margin: auto;
+        margin-top: 10px;
+        margin-left: 10px;
+    }
+    .encabezado{
+        text-align: center;
+    }
+    main .encabezado h1{
+        color: #F66001;
+        font-size: 50px;
+    }
+
+    main .encabezado h3{
+        margin-top: 10px;
+    }
+    section{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    main .seleccion .parte1{
+        height: 100%;
+        width: 100%;
+    }
+
+    main .seleccion .parte2{
+        height: 100%;
+        width: 100%;
+    }
+    main .seleccion a img{
+        height: 60%;
+        width: 60%;
+        margin-top: 50px;
+        margin-bottom: 30px;
+        opacity: 70%;
+    }
+
+    main .seleccion a:hover img{
+        opacity: 100%;
+    }
+
+    main .seleccion label{
+        font-size: 20px;
+        color: black;
+    }
+
+    /* /////    FOOTER   ///// */
+
+    footer{
+        text-align: center;
+        font-family: 'calibri';
+        font-size: 20px;
+        color: #F66001;
+        margin-top: 40px;
+    }
+}
+

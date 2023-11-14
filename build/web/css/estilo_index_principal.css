@@ -1,0 +1,262 @@
+/* ///////   AJUSTES GENERALES /////// */
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+
+
+}
+body{
+    background: url(../img/fondo.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+
+}
+#cont{
+    width: 100%;
+    height: auto;
+    position: relative;
+    margin: auto;
+ 
+
+}
+[class*="col-"]{
+    float: left;
+    order: 3px solid black;
+    padding: 5px;
+    width: 100%;
+}
+.fila{
+    position: relative;
+    margin: auto;
+    width: 100%;
+    height: auto;
+    clear: both;
+    display: table;
+    
+
+}
+.red{
+    margin-top: 5px;
+    width: 100%;
+}
+#parrafo2{
+    margin-right: 100px;
+    margin-right: 100px;
+}
+/* ///////   AJUSTES HEADER (cabezote) /////// */
+#cabeza{
+    padding: none;
+}
+#rectangulo2{
+    width: 100%;
+    height: 20px;
+    background: #F66001;
+}
+header{
+    background:rgba(255, 255, 255, 0.1);
+
+}
+header div{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+#banner{
+    width: 100%;
+    margin-top: -70px;
+    margin-bottom: -40px;
+   } 
+.mini{
+    margin-top: -45px;
+    width: 70%;
+    height: auto;
+    margin-bottom: -40px;
+  
+}
+#rectangulo{
+    width: 160px;
+    height: 60px;
+    background-color: #F66001;
+    margin-top: 35px;
+    margin-bottom: 10px;
+    border-radius: 10%;
+}
+header div a div p{
+    color: aliceblue;
+}
+#rectangulo:hover{
+    width: 180px;
+
+}
+/* ///////   AJUSTES NAV (navegacion) /////// */
+nav div div{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+nav div{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.button_nav{
+    width: 150px;
+    height: 50px;
+    background-color: rgb(35, 20, 175);
+    border-radius: 10px;
+}
+.button_nav1{
+    text-align: center;
+    font-size: 10px;
+    width: 250px;
+    height: 40px;
+    background-color: rgb(20, 175, 43);
+    border-radius: 10px;
+}
+.button_nav:hover{
+    width: 170px;
+}
+.button_nav p{
+    color: aliceblue;
+}
+/* ///////   AJUSTES MAIN (Secciones) /////// */
+main{
+    position: relative;
+}
+aside{
+}
+#parrafo2{
+    padding-right: 100px;
+    padding-left: 100px;
+}
+#parrafo2 p{
+    font-size: 30px;
+    text-align: justify;
+}
+#perfil{
+
+    margin-top: 50px;
+
+
+}
+article div{
+    position:relative ;
+    text-align: center;
+;
+}
+article div div{
+    width: 100%;
+}
+article div div img{
+    width: 100px;
+}
+article div div h1{
+    font-size: 40px;
+    color:  #F66001;
+}
+.cajaAn{
+    width: 100%;
+    height: 200px;
+    background:rgb(255, 255, 255);
+    margin-bottom: 10px;
+    margin-top: 40px;
+}
+.no{display: none;}
+.si{display: block;}
+.parrafo{
+    text-align: left;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.parrafo p{
+    font-size: 25px;
+    text-align: justify;
+}
+#img2{
+    width: 250px;
+}
+#usrd{
+    top: 100px;
+
+}
+/*===================================================
+PANTALLA DE ESCRITORIO GRANDE - LARGE (lg)
+=====================================================*/
+@media(min-width:1200px){  
+
+    .col-lg-12{width:100%;}  
+    .col-lg-11{width:91.66666667%;}
+    .col-lg-10{width:83.33333333%;}
+    .col-lg-9{width:75%;}
+    .col-lg-8{width:66.66666667%;}
+    .col-lg-7{width:58.33333333% ;}
+    .col-lg-6{width:50%;}
+    .col-lg-5{width:41.66666667%;}
+    .col-lg-4{width:33.33333333%;}
+    .col-lg-3{width:25%;}
+    .col-lg-2{width:16.66666667%;}
+    .col-lg-1{width:8.33333333%;}
+
+}
+
+
+/*===================================================
+PANTALLA DE ESCRITORIO MEDIANO - MEDIUM (md)
+=====================================================*/
+@media(max-width:1199px) and (min-width:992px){  
+
+    .col-md-12{width: 100%;}  
+    .col-md-11{width: 91.66666667%;}
+    .col-md-10{width: 83.33333333%;}
+    .col-md-9{width:75% ;}
+    .col-md-8{width: 66.66666667%;}
+    .col-md-7{width:58.33333333% ;}
+    .col-md-6{width: 50%;}
+    .col-md-5{width: 41.66666667%;}
+    .col-md-4{width: 33.33333333%;}
+    .col-md-3{width: 25%;}
+    .col-md-2{width: 16.66666667%;}
+    .col-md-1{width: 8.33333333%;}
+
+}
+/*===================================================
+PANTALLA DE TABLET - SMALL (sm)
+=====================================================*/
+@media(max-width:991px) and (min-width:767px){  
+
+    .col-sm-12{width: 100%;}  
+    .col-sm-11{width: 91.66666667%;}
+    .col-sm-10{width: 83.33333333%;}
+    .col-sm-9{width:75% ;}
+    .col-sm-8{width: 66.66666667%;}
+    .col-sm-7{width:58.33333333% ;}
+    .col-sm-6{width: 50%;}
+    .col-sm-5{width: 41.66666667%;}
+    .col-sm-4{width: 33.33333333%;}
+    .col-sm-3{width: 25%;}
+    .col-sm-2{width: 12.66666667%;}
+    .col-sm-1{width: 8.33333333%;}
+
+}
+/*===================================================
+PANTALLA DE PHOME - EXTRA SMALL (xs)
+=====================================================*/
+@media(max-width:767px){  
+
+    .col-xs-12{width: 100%;}  
+    .col-xs-11{width: 91.66666667%;}
+    .col-xs-10{width: 83.33333333%;}
+    .col-xs-9{width:75% ;}
+    .col-xs-8{width: 66.66666667%;}
+    .col-xs-7{width:58.33333333% ;}
+    .col-xs-6{width: 50%;}
+    .col-xs-5{width: 41.66666667%;}
+    .col-xs-4{width: 33.33333333%;}
+    .col-xs-3{width: 25%;}
+    .col-xs-2{width: 12.66666667%;}
+    .col-xs-1{width: 8.33333333%;}
+}

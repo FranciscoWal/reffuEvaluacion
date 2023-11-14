@@ -1,0 +1,346 @@
+/* /////    AJUSTES GENERALES   ///// */
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+/* /////    PANTALLAS GRANDES   ///// */
+
+@media (min-width:800px){
+    /* /////     NAVEGADOR  ///// */
+
+    nav{
+        width: 100%;
+        background-color: #F66001;
+        display: flex;
+        height: 40px;
+    }
+
+    nav button{
+        background: none;
+        border: none;
+    }
+
+    nav #seccion1{
+        display: flex;
+        justify-content: center;
+        width: 50%;
+    }
+
+    nav #seccion2{
+        display: flex;
+        justify-content: center;
+        width: 50%;
+    }
+
+    nav a{
+        text-decoration: none;
+        color: white;
+        padding: 10px;
+        border-radius: 50px;
+        font-size: 15px;
+        cursor: pointer;
+        opacity: 60%;
+    }
+
+    nav a:hover{
+        text-decoration: none;
+        font-size: 20px;
+        opacity: 100%;
+    }
+
+    nav button img{
+        transform: rotate(90deg);
+    }
+
+    /* /////     MAIN  ///// */
+
+    main{
+        width: 100%;
+        height: 100%;
+    }
+
+    main div .regresa{
+        width: 100%;
+        height: auto;
+    }
+
+    main div a img{
+        margin: auto;
+        margin-top: 15px;
+        margin-left: 10px;
+    }
+
+    /* ASIDE */
+
+    main aside img{
+        width: 8%;
+        height: 8%;
+    }
+
+    main aside{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    main aside h1{
+        font-size: 40px;
+        color: #F66001;
+    }
+
+    main aside h3{
+        margin: auto;
+        margin-top: 10px;
+        color: black;
+        opacity: 60%;
+    }
+
+    /* SECTION */
+
+    section{
+        margin-top: 20px;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .sivisible{
+        color: red;
+        font-size: 13px;
+    }
+
+    .novisible{
+        display: none;
+    }
+    form{
+        width: 85%;
+    }
+    section .controls input{
+        margin-top: 15px;
+        background-color: rgb(230, 230, 230);
+        border: none;
+        border-radius: 20px;
+        height: 30px;
+        padding-left: 5%;
+        width: 95%;
+        font-size: 18px;
+    }
+
+    main section button{
+        width: 100%;
+        height: 40px;
+        background-color: #F66001;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        border: none;
+        border-radius: 20px;
+        color: white;
+        cursor: pointer;
+        font-size: 100%;
+    }
+
+    #separar{
+        padding-left: 8px;
+        cursor: pointer;
+    }
+    main button:hover{
+        background-color: #f7a572;
+    }
+    main .terminos{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 20px;
+    }
+    main .terminos a{
+        padding-left: 5px;
+        text-decoration: none;
+        color: black;
+    }
+
+    /* /////    FOOTER   ///// */
+
+    footer{
+        text-align: center;
+        font-family: 'calibri';
+        font-size: 20px;
+        color: #F66001;
+        margin-top: 10px;
+    }
+}
+/* /////    TELÉFONO   ///// */
+
+@media (max-width:799px){
+    
+    nav{
+        width: 100%;
+        background-color: #F66001;
+        display: flex;
+        height: 40px;
+    }
+
+    nav button{
+        background: none;
+        border: none;
+    }
+
+    nav #seccion1{
+        display: flex;
+        justify-content: center;
+        width: 50%;
+    }
+
+    nav #seccion2{
+        display: flex;
+        justify-content: center;
+        width: 50%;
+    }
+
+    nav a{
+        text-decoration: none;
+        color: white;
+        padding: 10px;
+        border-radius: 50px;
+        font-size: 15px;
+        cursor: pointer;
+        opacity: 60%;
+    }
+
+    nav a:hover{
+        text-decoration: none;
+        font-size: 20px;
+        opacity: 100%;
+    }
+
+    nav button img{
+        transform: rotate(90deg);
+    }
+
+    /* /////     MAIN  ///// */
+
+    main{
+        width: 100%;
+        height: 100%;
+    }
+
+    main div .regresa{
+        width: 100%;
+        height: auto;
+    }
+
+    main div a img{
+        margin: auto;
+        margin-top: 15px;
+        margin-left: 10px;
+    }
+
+    /* ASIDE */
+
+    main aside img{
+        width: 8%;
+        height: 8%;
+    }
+
+    main aside{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    main aside h1{
+        font-size: 40px;
+        color: #F66001;
+    }
+
+    main aside h3{
+        margin-top: 10px;
+        color: black;
+        opacity: 60%;
+    }
+
+    /* SECTION */
+
+    section{
+        margin-top: 20px;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .sivisible{
+        color: red;
+        font-size: 13px;
+    }
+
+    .novisible{
+        display: none;
+    }
+    form{
+        width: 85%;
+    }
+    section .controls input{
+        margin-top: 15px;
+        background-color: rgb(230, 230, 230);
+        border: none;
+        border-radius: 20px;
+        height: 30px;
+        padding-left: 5%;
+        width: 95%;
+        font-size: 18px;
+    }
+
+    main section button{
+        width: 100%;
+        height: 40px;
+        background-color: #F66001;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        border: none;
+        border-radius: 20px;
+        color: white;
+        cursor: pointer;
+        font-size: 100%;
+    }
+
+    #separar{
+        padding-left: 8px;
+        cursor: pointer;
+    }
+    main button:hover{
+        background-color: #f7a572;
+    }
+    main .terminos{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 20px;
+    }
+    main .terminos a{
+        padding-left: 5px;
+        text-decoration: none;
+        color: black;
+    }
+
+    /* /////    FOOTER   ///// */
+
+    footer{
+        text-align: center;
+        font-family: 'calibri';
+        font-size: 20px;
+        color: #F66001;
+        margin-top: 10px;
+    }
+}

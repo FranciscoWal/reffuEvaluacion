@@ -1,0 +1,279 @@
+  body{
+    width: 100%;
+    height: 715px;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+  }
+  
+  nav img{
+    width: 90px;
+}
+
+.conti{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.308);
+  }
+
+  section .calif{
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+   .completo{
+    margin-bottom: 200px;
+    margin-top: 150px;
+  }
+  section .container{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    padding: 20px;
+    border: none;
+    border-radius: 50px;
+    background-color: rgba(0, 0, 0, 0.114);
+    width: 900px;
+  }
+
+  section .navi {
+    width: 100%;
+    display: flex;
+    opacity: 80%;
+    padding: 5px;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.258);
+  }
+
+  section .navi p{
+    font-size: 20px;
+  }
+
+  section .p1{
+    width: 50%;
+  }
+
+  section .nomEmp{
+    display: flex;
+    margin-top: 10px;
+    border: 1px solid #F66001;
+    width: 330px;
+    border-radius: 20px;
+  }
+
+  section .nomEmp img{
+    height: 40px;
+    border-radius: 80px;
+  }
+
+  section .nomEmp p{
+    color: #F66001;
+    padding-top: 10px;
+    padding-left: 5px;
+  }
+
+  section .nomEmp button{
+    margin-top: 5px;
+    margin-left: 30px;
+    width: 80px;
+    border-radius: 15px;
+    height: 30px;
+    border: 1px solid rgba(0, 0, 0, 0.365);
+    cursor: pointer;
+  }
+
+  section .publicacion{
+    margin-top: 20px;
+    padding-left: 62px;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.258);
+  }
+#Titu{
+    margin-bottom: 5px;
+    margin-top: 5px;
+    font-size: 20px;
+    text-align: center;
+  }
+
+  section .publicacion .imagen{
+    display: flex;
+    flex-direction: column;
+  }
+
+  section .publicacion .imagen label{
+    margin-top: 10px;
+    margin-left: 250px;
+  }
+
+  section .publicacion .imagen img{
+    width: 400px;
+    border-radius: 15px;
+    margin-top: 51px;
+    margin-left: 150px;
+  }
+  .formi h3{
+      margin-bottom: 20px;
+  }
+  #formulario{
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+  }
+
+  .formi  input{
+    border: none;
+    border-radius: 10px;
+    height: 40px;
+    width: 700px;
+    font-size: 20px;
+  }
+  .formi  button{
+    width: 20%;
+    color: #F66001;
+    font-size: 25px;
+    background: none;
+    border: none;
+    cursor: pointer;
+  }
+
+  section .comentarios {
+    margin-top: 30px;
+    width: 700px;
+    margin-left: 80px;
+  }
+
+  section .comentarios .formComentarios{
+    background-color: rgba(0, 0, 0, 0.107);
+    width: 700px;
+    border-radius: 15px;
+    display: flex;
+  }
+
+  section .comentarios .formComentarios .fotoPerfil img{
+    width: 80px;
+    border-radius: 30px;
+    padding: 10px;
+  }
+
+  section .comentarios h3{
+    font-size: 20px;
+    opacity: 80%;
+  }
+
+  section .comentarios .formComentarios .informacion{
+    display: flex;
+    flex-direction: column;
+    padding-top: 10px;
+    padding-left: 10px;
+  }
+
+  section .comentarios .formComentarios .informacion .datos{
+    display: flex;
+    width: 100%;
+  }
+
+  section .comentarios .formComentarios .informacion .datos .nombre{
+    margin-right: 30px;
+  }
+
+  section .comentarios .formComentarios .informacion .datos .fecha{
+    display: flex;
+    justify-content: center;
+  }
+
+  section .comentarios .formComentarios .informacion .comentarioUsuario{
+    background-color: rgba(255, 255, 255, 0.514);
+    border-radius: 15px;
+    margin-top: 10px;
+  }
+
+  section .comentarios .formComentarios .informacion .comentarioUsuario label{
+    padding: 20px;
+    height: auto;
+  }
+
+  /* ------------- */
+
+  /*---- FOOTER ----*/
+
+
+  footer{
+    display: flex;
+    margin-top: 50px;
+    width: 100%;
+    height: 200px;
+    background-color: rgba(0, 0, 0, 0.114);
+  }
+
+  footer .s1{
+    width: 33.33%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  footer .s1 h1{
+    padding-top: 20px;
+    font-size: 25px;
+    color: #F66001;
+  }
+
+  footer .s1 img{
+    width: 90px;
+  }
+
+  footer .s1 p{
+    margin-top: 20px;
+  }
+
+  footer .s2{
+    width: 33.33%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  footer .s2 h1{
+    padding-top: 20px;
+    font-size: 25px;
+    color: #F66001;
+    margin-bottom: 10px;
+  }
+
+  footer .s2 a{
+    text-decoration: none;
+    color: black;
+    margin: 7px;
+  }
+
+  footer .s3{
+    width: 33.33%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  footer .s3 h1{
+    padding-top: 20px;
+    font-size: 25px;
+    color: #F66001;
+  }
+
+  footer .s3 .redes-logos{
+    display: flex;
+    margin-top: 15px;
+    margin-bottom: 85px;
+  }
+
+  footer .s3 .redes-logos img{
+    width: 40px;
+    margin-left: 10px;
+  }
+
+
+

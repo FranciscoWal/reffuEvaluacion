@@ -1,0 +1,314 @@
+/* /////    AJUSTES GENERALES   ///// */
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* /////    PANTALLAS GRANDES   ///// */
+
+@media (min-width:800px){
+    nav{
+        width: 100%;
+        background-color: #F66001;
+        display: flex;
+        height: 40px;
+    }
+
+    nav button{
+        background: none;
+        border: none;
+    }
+
+    nav #seccion1{
+        display: flex;
+        justify-content: center;
+        width: 50%;
+    }
+
+    nav #seccion2{
+        display: flex;
+        justify-content: center;
+        width: 50%;
+    }
+
+    nav a{
+        text-decoration: none;
+        color: white;
+        padding: 10px;
+        border-radius: 50px;
+        font-size: 15px;
+        cursor: pointer;
+        opacity: 60%;
+    }
+
+    nav a:hover{
+        text-decoration: none;
+        font-size: 20px;
+        opacity: 100%;
+    }
+
+    nav button img{
+        transform: rotate(90deg);
+    }
+
+    /* /////     MAIN  ///// */
+
+    main{
+        width: 100%;
+        height: 70%;
+    }
+
+    main div .regresa{
+        width: 100%;
+        height: auto;
+    }
+
+    main div a img{
+        margin: auto;
+        margin-top: 15px;
+        margin-left: 10px;
+    }
+
+    main div .contenido{
+        width: 100%;
+        height: 100%;
+    }
+    .logo{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    main div .logo img{
+        width: 20%;
+        height: 20%;
+        height: auto;
+
+    }
+    section{
+        border: 1px solid rgb(216, 215, 215);
+        width: 80%;
+        margin: auto;
+        margin-bottom: 10px;
+        border-radius:20px;
+        font-family: 'calibri';
+        text-align: center;
+    }
+    main div h1{
+        font-size: 50px;
+        font-family: 'Raleway';
+        color: #F66001;
+        margin-bottom: 50px;
+    }
+    .controls{
+        width: 100%;
+        border-radius: 4px;
+        margin-bottom: 10px;
+        border: 1px;
+        font-family: 'calibri';
+        font-size: 18px;
+        display: flex;
+        flex-direction: column;
+    }
+    input{
+        background-color: rgb(230, 230, 230);
+        border: none;
+        border-radius: 20px;
+        margin-top: 20px;
+        height: 50px;
+        width: 80%;
+        margin-left: 10%;
+        margin-right: 10%;
+        font-size: 15px;
+    }
+    main button{
+        width: 60%;
+        height: 40px;
+        background-color: #F66001;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        border: none;
+        border-radius: 20px;
+        color: white;
+        cursor: pointer;
+    }
+
+    main button:hover{
+        background-color: #f7a572;
+    }
+
+    .sivisible{
+        color: red;
+        font-size: 13px;
+    }
+
+    .novisible{
+        display: none;
+    }
+
+
+    /* /////    FOOTER   ///// */
+
+    footer{
+        text-align: center;
+        font-family: 'calibri';
+        font-size: 20px;
+        color: #F66001;
+        margin-top: 28px;
+    }
+}
+
+/* /////    TELÉFONO   ///// */
+
+@media (max-width:799px){
+    nav{
+        width: 100%;
+        background-color: #F66001;
+        display: flex;
+        height: 40px;
+    }
+
+    nav button{
+        background: none;
+        border: none;
+    }
+
+    nav #seccion1{
+        display: flex;
+        justify-content: center;
+        width: 50%;
+    }
+
+    nav #seccion2{
+        display: flex;
+        justify-content: center;
+        width: 50%;
+    }
+
+    nav a{
+        text-decoration: none;
+        color: white;
+        padding: 10px;
+        border-radius: 50px;
+        font-size: 15px;
+        cursor: pointer;
+        opacity: 60%;
+    }
+
+    nav a:hover{
+        text-decoration: none;
+        font-size: 20px;
+        opacity: 100%;
+    }
+
+    nav button img{
+        transform: rotate(90deg);
+    }
+
+    /* /////     MAIN  ///// */
+
+    main{
+        width: 100%;
+        height: 70%;
+    }
+
+    main div .regresa{
+        width: 100%;
+        height: auto;
+    }
+
+    main div a img{
+        margin: auto;
+        margin-top: 15px;
+        margin-left: 10px;
+    }
+
+    main div .contenido{
+        width: 100%;
+        height: 100%;
+    }
+    .logo{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    main div .logo img{
+        width: 30%;
+        height: 30%;
+        height: auto;
+
+    }
+    section{
+        border: 1px solid rgb(216, 215, 215);
+        width: 80%;
+        margin: auto;
+        margin-bottom: 10px;
+        border-radius:20px;
+        font-family: 'calibri';
+        text-align: center;
+    }
+    main div h1{
+        font-size: 50px;
+        font-family: 'Raleway';
+        color: #F66001;
+        margin-bottom: 50px;
+    }
+    .controls{
+        width: 100%;
+        border-radius: 4px;
+        margin-bottom: 10px;
+        border: 1px;
+        font-family: 'calibri';
+        font-size: 18px;
+        display: flex;
+        flex-direction: column;
+    }
+    input{
+        background-color: rgb(230, 230, 230);
+        border: none;
+        border-radius: 20px;
+        margin-top: 20px;
+        height: 50px;
+        width: 80%;
+        margin-left: 10%;
+        margin-right: 10%;
+        font-size: 15px;
+    }
+    main button{
+        width: 60%;
+        height: 40px;
+        background-color: #F66001;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        border: none;
+        border-radius: 20px;
+        color: white;
+        cursor: pointer;
+    }
+
+    main button:hover{
+        background-color: #f7a572;
+    }
+
+    .sivisible{
+        color: red;
+        font-size: 13px;
+    }
+
+    .novisible{
+        display: none;
+    }
+
+
+    /* /////    FOOTER   ///// */
+
+    footer{
+        text-align: center;
+        font-family: 'calibri';
+        font-size: 20px;
+        color: #F66001;
+        margin-top: 28px;
+    }
+}
+
+

@@ -1,0 +1,438 @@
+/* /////    AJUSTES GENERALES   ///// */
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Helvetica, sans-serif;    
+}
+
+/* /////    PANTALLAS GRANDES   ///// */
+
+@media (min-width:800px){
+    body{
+        background: url(../img/fondo.png);
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+    }
+    /* /////     NAVEGADOR  ///// */
+    
+    nav{
+        width: 100%;
+        background-color: #F66001;
+        display: flex;
+        height: 40px;
+    }
+    
+    nav button{
+        background: none;
+        border: none;
+    }
+    
+    nav #seccion1{
+        display: flex;
+        justify-content: center;
+        width: 50%;
+    }
+    
+    nav #seccion2{
+        display: flex;
+        justify-content: center;
+        width: 50%;
+    }
+    
+    nav a{
+        text-decoration: none;
+        color: white;
+        padding: 10px;
+        border-radius: 50px;
+        font-size: 15px;
+        cursor: pointer;
+        opacity: 60%;
+    }
+    
+    nav a:hover{
+        text-decoration: none;
+        font-size: 20px;
+        opacity: 100%;
+    }
+    
+    nav button img{
+        transform: rotate(90deg);
+    }
+    
+    /* /////    MAIN   ///// */
+    
+    main{
+        width: 100%;
+        display: flex;
+        height: 100%;
+    }
+    
+    aside{
+        width: 50%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    /* ASIDE */
+    
+    aside .logo img{
+        margin-top: 150px;
+        width: 450px;
+        height: 300px;
+    }
+    
+    /* SECTION */
+    main  img{
+        width: 50px;
+        height: 40px;
+    }
+    
+    section{
+        border: 1px solid rgb(168, 167, 167);
+        width: 30%;
+        height: 400px;
+        padding: 30px;
+        margin: auto;
+        margin-top: 50px;
+        border-radius:20px;
+        font-family: 'calibri';
+        background-color: white;
+        text-align: center;
+    }
+    #cen{
+        margin-left: 65px;  
+    }
+    .controls{
+        
+       
+        width: 50%;
+        padding: 10px;
+        border-radius: 4px;
+        margin-bottom: 10px;
+        border: 1px;
+        font-family: Helvetica;
+        font-size: 18px;
+        display: flex;
+        flex-direction: column;
+        
+        
+    }
+    #errorRANK{
+        margin-left: 50px;
+    }
+    #img{
+        width: 250px;
+        height: 80px;
+    }
+    #RANK{border: blue solid 1px;}
+    
+    main section h1{
+        font-size: 50px;
+        color: #F66001;
+        font-family: 'calibri';
+    }
+    
+    main section p{
+        margin: auto;
+        margin-top: 15px;
+        font-size: 20px;
+        opacity: 75%;
+        font-family: 'Helvetica';
+    }
+    
+    .sivisible{
+        color: red;
+        font-size: 13px;
+    }
+    
+    .novisible{
+        display: none;
+    }
+    
+    input{
+        background-color: rgb(230, 230, 230);
+        margin: 20px;
+        border: none;
+        border-radius: 20px;
+        padding: 10px;
+        height: 10px;
+        width: 85%;
+    }
+    
+    main section button{
+        width: 70%;
+        height: 40px;
+        background-color: #F66001;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        border: none;
+        border-radius: 20px;
+        color: white;
+        cursor: pointer;
+        font-family: 'calibri';
+        font-size: 18px;
+    }
+    
+    main button:hover{
+        background-color: #f7a572;
+    }
+    
+    main div #olv_con a{
+        text-decoration: none;
+        color: black;
+        padding: 10px;
+        border-radius: 50px;
+        font-size: 18px;
+        cursor: pointer;
+        opacity: 60%;
+        font-family: 'calibri';
+    }
+    
+    main div #olv_con a:hover{
+        text-decoration: none;
+        opacity: 100%;
+    }
+    
+    main div .cuenta{
+        margin: auto;
+        margin-top: 40px;
+        width: 100%;
+        display: flex;
+    }
+    
+    main div .p1{
+        width: 50%;
+        color: #BBBBBB;
+        border-right: 1px solid black;
+        font-family: 'calibri';
+    }
+  
+    main div .p2{
+        width: 50%;
+    }
+    
+    main div .p2 a{
+        text-decoration: none;
+        color: #F66001;
+        padding: 10px;
+        border-radius: 50px;
+        font-size: 17px;
+        cursor: pointer;
+        opacity: 60%;
+        font-family: 'calibri';
+    }
+    
+    main div .p2 a:hover{
+        text-decoration: none;
+        opacity: 100%;
+    }
+    
+    /* /////    FOOTER   ///// */
+    
+    footer{
+        text-align: center;
+        font-family: 'calibri';
+        font-size: 20px;
+        color: #F66001;
+        margin-top: 28px;
+    }
+}
+
+/* /////    TELÉFONO   ///// */
+
+@media (max-width:799px){
+    body{
+        background: url(../img/fondo.png);
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+    }
+    /* /////     NAVEGADOR  ///// */
+    
+    nav{
+        width: 100%;
+        background-color: #F66001;
+        display: flex;
+        height: 40px;
+    }
+    
+    nav button{
+        background: none;
+        border: none;
+    }
+    
+    nav #seccion1{
+        display: flex;
+        justify-content: center;
+        width: 50%;
+    }
+    
+    nav #seccion2{
+        display: flex;
+        justify-content: center;
+        width: 50%;
+    }
+    
+    nav a{
+        text-decoration: none;
+        color: white;
+        padding: 10px;
+        border-radius: 50px;
+        font-size: 15px;
+        cursor: pointer;
+        opacity: 60%;
+    }
+    
+    nav a:hover{
+        text-decoration: none;
+        font-size: 20px;
+        opacity: 100%;
+    }
+    
+    nav button img{
+        transform: rotate(90deg);
+    }
+    
+    /* /////    MAIN   ///// */
+    
+    main{
+        width: 100%;
+        display: flex;
+        height: 70%;
+    }
+    
+    #visible{
+        display: none;
+    }
+    /* SECTION */
+    main  img{
+        width: 60%;
+        height: 60%;
+    }
+    section{
+        border: 1px solid rgb(216, 215, 215);
+        width: 70%;
+        height: 70%;
+        margin: auto;
+        margin-top: 50px;
+        border-radius:20px;
+        font-family: 'calibri';
+        background-color: white;
+        text-align: center;
+    }
+    
+    .controls{
+        width: 100%;
+        border-radius: 4px;
+        margin-bottom: 10px;
+        border: 1px;
+        font-family: 'calibri';
+        font-size: 18px;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    main section h1{
+        font-size: 40px;
+        color: #F66001;
+    }
+    
+    main section p{
+        margin: auto;
+        margin-top: 15px;
+        font-size: 20px;
+        opacity: 75%;
+    }
+    
+    .sivisible{
+        color: red;
+        font-size: 13px;
+    }
+    
+    .novisible{
+        display: none;
+    }
+    
+    input{
+        background-color: rgb(230, 230, 230);
+        margin: 10px;
+        border: none;
+        border-radius: 20px;
+        padding: 10px;
+        height: 10px;
+        width: 85%;
+    }
+    
+    main section button{
+        width: 70%;
+        height: 40px;
+        background-color: #F66001;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        border: none;
+        border-radius: 20px;
+        color: white;
+        cursor: pointer;
+    }
+    
+    main button:hover{
+        background-color: #f7a572;
+    }
+    
+    main div #olv_con a{
+        text-decoration: none;
+        color: black;
+        padding: 10px;
+        border-radius: 50px;
+        font-size: 15px;
+        cursor: pointer;
+        opacity: 60%;
+    }
+    
+    main div #olv_con a:hover{
+        text-decoration: none;
+        opacity: 100%;
+    }
+    
+    main div .cuenta{
+        margin: auto;
+        margin-top: 40px;
+        margin-bottom: 20px;
+        width: 100%;
+        display: flex;
+    }
+    
+    main div .p1{
+        width: 50%;
+        color: #BBBBBB;
+        border-right: 1px solid black;
+    }
+    
+    main div .p2{
+        width: 50%;
+    }
+    
+    main div .p2 a{
+        text-decoration: none;
+        color: #F66001;
+        padding: 10px;
+        border-radius: 50px;
+        font-size: 15px;
+        cursor: pointer;
+        opacity: 60%;
+    }
+    
+    main div .p2 a:hover{
+        text-decoration: none;
+        opacity: 100%;
+    }
+    
+    /* /////    FOOTER   ///// */
+    
+    footer{
+        text-align: center;
+        font-family: 'calibri';
+        font-size: 20px;
+        color: #F66001;
+        margin-top: 28px;
+    }
+}

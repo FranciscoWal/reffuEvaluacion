@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Registrar Empresa</title>
+        <link rel="stylesheet" href="css/estilo_reg_empresa.css">
+        <link rel="icon" href="img/minuicon.png">
+
+    </head>
+    <body>
+        <nav id="navi">
+            <div id="seccion1">
+                <button><a href="#">¿Quiénes Somos? <img src="img/triangulo-negro-flecha-derecha.png" alt=""></a></button>
+            </div>
+            <div id="seccion2">
+                <button><a href="#">Contactanos <img src="img/triangulo-negro-flecha-derecha.png" alt=""></a></button>
+            </div>
+        </nav>
+        <main>
+            <div class="regresa">
+                <a href="registrar.html"><img src="img/retroceso.png" alt=""></a>
+            </div>
+            <aside>
+                <img src="img/Logo Sencillo.png" alt="">
+                <h1>CREAR CUENTA</h1>
+                <h3>EMPRESA</h3>
+            </aside>
+            <section>
+                <form method="post" action="ConectEmp"  id="formulario" enctype="multipart/form-data">
+                    <div id="formulario">
+                        <div class="controls">
+                            <input type="file" name="foto" id="foto">
+                            <span class="novisible" id="errorFoto">Selecciona una foto</span>
+                        </div>                    
+                        <div class="controls">
+                            <input type="text" name="name" id="name" placeholder="Nombre">
+                            <span class="novisible" id="errorNombre">Escribe tu nombre</span>
+                        </div>
+                        <div class="controls">
+                            <input type="text" name="name_empresa" id="name_empresa" placeholder="Nombre Empresa">
+                            <span class="novisible" id="errorNomEmpresa">Escribe el nombre de la empresa</span>
+                        </div>
+                        <div class="controls">
+                            <input type="tel" name="telefono" id="telefono" placeholder="000-000-0000">
+                            <span class="novisible" id="errorTelefono">Escribe el número de teléfono</span>
+                        </div>
+                        <div class="controls">
+                            <input type="email" name="email" id="email" placeholder="Correo">
+                            <span class="novisible" id="errorCorreo">Escribe el correo</span>
+                        </div>
+                        <div class="controls">
+                            <input type="password" name="password" id="password" placeholder="Contraseña">
+                            <span class="novisible" id="errorContraseña">Escribe una contraseña</span>
+                        </div>
+                        <div class="terminos">
+                            <input type="checkbox" id="checkbox"> <div id="separar">Aceptar</div> <a href="#">términos y condiciones</a>
+                        </div>
+                        <div>
+                            <button type="submit">Verificar datos</button>
+                        </div>
+                    </div>
+                </form>
+            </section>
+        </main>
+        <!--
+        <footer>
+            <div class="s1">
+                <h1>Información</h1>
+                <a href="#"><img src="img/Logotipo1.png" alt=""></a>
+                <p>REFFU.06@gmail.com</p>
+                <p>427-227-1735</p>
+            </div>
+            <div class="s2">
+                <h1>¡Conocenos!</h1>
+                <a href="#">Sobre nosotros</a>
+                <a href="vip.jsp">Planes y Servicios</a>
+                <a href="#">Politicas de privacidad</a>
+                <a href="#">Términos y Condiciones</a>
+            </div>
+            <div class="s3">
+                <h1>Redes</h1>
+                <div class="redes-logos">
+                    <a href="https://wa.me/message/TCSINCUCH65RM1"><img src="img/red1.png" alt=""></a>
+                    <a href="https://www.facebook.com/profile.php?id=100078991177292"><img src="img/red2.png" alt=""></a>
+                    <a href="https://www.youtube.com/channel/UCUR7vAnGM-hRWqCCNpzHz9A"><img src="img/red3.png" alt=""></a>
+                    <a href="https://www.instagram.com/reffu_lo_mejor_para_ti/"><img src="img/instagram.png" alt=""></a>
+                </div>
+            </div>
+        </footer> -->
+        <script src="js/scripts_reg_empresa.js"></script>
+    </body>
+</html>

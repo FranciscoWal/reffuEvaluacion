@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilo_index.css">
+    <link rel="icon" href="img/minuicon.png">
+
+    <title>Login</title>
+</head>
+<body>
+    <nav id="navi">
+        <div id="seccion1">
+            <button><a href="Index_Principal.html">¿Quiénes Somos? <img src="img/triangulo-negro-flecha-derecha.png" alt=""></a></button>
+        </div>
+        <div id="seccion2">
+            <button><a href="#">Contactanos <img src="img/triangulo-negro-flecha-derecha.png" alt=""></a></button>
+        </div>
+    </nav>
+    <main>
+        <aside>
+            <div class="logo" id="visible">
+                <img src="img/Logotipo1.png" alt="" >
+            </div>
+        </aside>
+        <section id="ingreso">
+            <form method="post" action="Validar" id="formulario">
+                <img src="img/Logo Sencillo.png" alt="">
+                <div id="sec">
+                    <h1>BIENVENIDO</h1>
+                    <p>Inicio de sesion</p>
+                    <div class="controls">
+                        <input type="email" name="email" id="email" placeholder="Email">
+                        <span class="novisible" id="errorNombre">Escribe tu Email</span>
+                    </div>
+                    <div class="controls">
+                        <input type="password" name="password" id="password" placeholder="Contraseña">
+                        <span class="novisible" id="errorPassword">Escribe el password</span>
+                    </div>
+                    <div>
+                        <button type="submit">Entrar</button>
+                    </div>
+                    <div id="olv_con">
+                        <a href="recuperar_contraseña.html">¿Olvidaste tu contraseña?</a>
+                    </div>
+                    <div class="cuenta">
+                        <div class="p1">
+                            ¿No tienes cuenta?
+                        </div>
+                        <div class="p2">
+                            <a href="registrar.html">Registrate</a>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </section>
+    </main>
+    <footer>
+        &copy; REFF-U
+    </footer>
+    <script src="js/scripts_index.js"></script>
+</body>
+</html>
